@@ -488,7 +488,9 @@ progress {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
+  font-weight: bold;
+  color: #084298;
+
 }
 
 .display-1 {
@@ -7473,6 +7475,7 @@ textarea.form-control-lg {
 }
 
 .py-4 {
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.mrQEFHNtrVW7JuJf2Av6zAHaDa&pid=Api");
   padding-top: 1.5rem !important;
   padding-bottom: 1.5rem !important;
 }
@@ -7632,6 +7635,7 @@ textarea.form-control-lg {
 
 .fw-bolder {
   font-weight: bolder !important;
+  color: #084298;
 }
 
 .lh-1 {
@@ -7823,13 +7827,32 @@ textarea.form-control-lg {
 }
 
 .bg-light {
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.mrQEFHNtrVW7JuJf2Av6zAHaDa&pid=Api");
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+.bg-heroheader{
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.mrQEFHNtrVW7JuJf2Av6zAHaDa&pid=Api");
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
 }
 
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.SPblue{
+  background-color: #084298;
 }
 
 .bg-black {
